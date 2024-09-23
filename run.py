@@ -8,3 +8,6 @@ import os
 import pyfiglet
 from termcolor import colored
 from questions import QUESTIONS
+# Assuming QUESTIONS is imported from questions.py
+
+QUIZ_LENGTHS = [10, 20, 50, 100]
