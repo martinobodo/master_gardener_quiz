@@ -49,3 +49,24 @@ def display_welcome_message():
         else:
             print(colored("Please press Enter only.", "red"))
     clear()
+
+def get_quiz_length():
+    """Prompt the user to choose the number of questions for the quiz."""
+    while True:
+        try:
+            print("\nChoose the number of questions:")
+            for i, length in enumerate(QUIZ_LENGTHS, 1):
+                print(f"{i}. {length} questions")
+            choice = int(input("Enter your choice (1-4): "))
+            clear()
+            if 1 <= choice <= 4:
+                return QUIZ_LENGTHS[choice - 1]
+            print(
+                colored(
+                    f"{choice} is an invalid choice. "
+                    "Enter a number between 1 and 4.",
+                    "red"
+                )
+            )
+        except ValueError:
+            print(colored("Invalid input. Please enter a number.", "red"))
