@@ -81,7 +81,7 @@ def play_again():
             return False
         else:
             print(colored("Invalid input. Please enter 'yes' or 'no'.", "red"))
-            
+
 def run_quiz():
     """
     Run the main quiz game.
@@ -135,3 +135,13 @@ def run_quiz():
         if not play_again():
             print("Thank you for playing! Goodbye!")
             break
+
+def wait_for_enter():
+    """Wait for the user to press Enter before exiting."""
+    input("Press enter to exit...")
+
+
+if __name__ == "__main__":
+    clear()
+    run_quiz()
+    wait_for_enter()
