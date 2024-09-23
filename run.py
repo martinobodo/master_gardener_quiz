@@ -70,3 +70,14 @@ def get_quiz_length():
             )
         except ValueError:
             print(colored("Invalid input. Please enter a number.", "red"))
+
+def play_again():
+    """Ask the player if they want to play again."""
+    while True:
+        choice = input("Would you like to play again? (yes/no): ").lower()
+        if choice in ['yes', 'y']:
+            return True
+        elif choice in ['no', 'n']:
+            return False
+        else:
+            print(colored("Invalid input. Please enter 'yes' or 'no'.", "red"))
