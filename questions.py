@@ -1,4 +1,4 @@
-[
+QUESTIONS = [
 
 {
     'category': 'Gardening', 
@@ -10,7 +10,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -22,7 +22,7 @@
         'D': 'Sweeping leaves'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -34,7 +34,7 @@
         'D': 'Mowing grass'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -46,7 +46,7 @@
         'D': 'Trimming branches'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -58,7 +58,7 @@
         'D': 'Planting seeds'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -70,7 +70,7 @@
         'D': 'Sweeping paths'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -82,7 +82,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -94,7 +94,7 @@
         'D': 'Raking soil'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -106,7 +106,7 @@
         'D': 'Digging soil'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -118,7 +118,7 @@
         'D': 'Trimming hedges'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -130,7 +130,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -142,7 +142,7 @@
         'D': 'Cleaning paths'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -154,7 +154,7 @@
         'D': 'Pruning trees'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -166,7 +166,7 @@
         'D': 'Cutting grass'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -178,7 +178,7 @@
         'D': 'Digging large holes'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -190,7 +190,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -202,7 +202,7 @@
         'D': 'Mowing the lawn'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -214,7 +214,7 @@
         'D': 'Testing soil'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -226,7 +226,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -238,7 +238,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -250,7 +250,7 @@
         'D': 'Trimming grass'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -262,7 +262,7 @@
         'D': 'Spreading mulch'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -274,7 +274,7 @@
         'D': 'Cutting branches'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -286,7 +286,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -298,7 +298,7 @@
         'D': 'Spreading mulch'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -310,7 +310,7 @@
         'D': 'Breaking up soil'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -322,7 +322,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -334,7 +334,7 @@
         'D': 'Pruning shrubs'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -346,7 +346,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -358,7 +358,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -370,7 +370,7 @@
         'D': 'Raking soil'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -382,7 +382,7 @@
         'D': 'Spreading compost'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -394,7 +394,7 @@
         'D': 'Digging holes'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -406,7 +406,7 @@
         'D': 'Cutting grass'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -418,7 +418,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -430,7 +430,7 @@
         'D': 'Trimming hedges'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -442,7 +442,7 @@
         'D': 'Raking soil'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -454,7 +454,7 @@
         'D': 'Spreading mulch'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -466,7 +466,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -478,7 +478,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -490,7 +490,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -502,7 +502,7 @@
         'D': 'Removing weeds'
     },
     'correct_answer': 'D'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -514,7 +514,7 @@
         'D': 'Digging holes'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -526,7 +526,7 @@
         'D': 'Digging small holes'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -538,7 +538,7 @@
         'D': 'Trimming grass'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -550,7 +550,7 @@
         'D': 'Pruning shrubs'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -562,7 +562,7 @@
         'D': 'Digging large holes'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -574,7 +574,7 @@
         'D': 'Spreading compost'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -586,7 +586,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -598,7 +598,7 @@
         'D': 'Cutting grass'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -610,7 +610,7 @@
         'D': 'Spreading seeds'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -622,7 +622,7 @@
         'D': 'Raking soil'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -634,7 +634,7 @@
         'D': 'Planting seeds'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -646,7 +646,7 @@
         'D': 'Spreading mulch'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -658,7 +658,7 @@
         'D': 'Pruning bushes'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -670,7 +670,7 @@
         'D': 'Digging soil'
     },
     'correct_answer': 'B'
-}
+},
 {
     'category': 'Gardening', 
     'question': 'What is a drip irrigation system used for?', 
@@ -681,7 +681,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -693,7 +693,7 @@
         'D': 'Pruning hedges'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -705,7 +705,7 @@
         'D': 'Cutting grass'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -717,7 +717,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -729,7 +729,7 @@
         'D': 'Pruning bushes'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -741,7 +741,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -753,7 +753,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -765,7 +765,7 @@
         'D': 'Pruning hedges'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -777,7 +777,7 @@
         'D': 'Cutting grass'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -789,7 +789,7 @@
         'D': 'Watering plants'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -801,7 +801,7 @@
         'D': 'Pruning bushes'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -813,7 +813,7 @@
         'D': 'Raking leaves'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -825,7 +825,7 @@
         'D': 'Removing weeds'
     },
     'correct_answer': 'D'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -837,7 +837,7 @@
         'D': 'Digging holes'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -849,7 +849,7 @@
         'D': 'Digging small holes'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -861,7 +861,7 @@
         'D': 'Trimming grass'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -873,7 +873,7 @@
         'D': 'Cutting grass'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -885,7 +885,7 @@
         'D': 'Never'
     },
     'correct_answer': 'A'
-}
+},
 
 
 
@@ -899,7 +899,7 @@
         'D': 'Never'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -911,7 +911,7 @@
         'D': 'First Week of November'
     },
     'correct_answer': 'D'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -923,7 +923,7 @@
         'D': 'Never'
     },
     'correct_answer': 'A'
-}
+},
 
  
 
@@ -937,7 +937,7 @@
         'D': 'Lasting for 14 days'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -949,7 +949,7 @@
         'D': 'Constantly flowers'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -961,7 +961,7 @@
         'D': 'When ever it starts to look overgrown'
     },
     'correct_answer': 'C'
-}
+},
 
 
 {
@@ -974,7 +974,7 @@
         'D': 'When the moon is full'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -986,7 +986,7 @@
         'D': '11°C'
     },
     'correct_answer': 'D'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -998,7 +998,7 @@
         'D': 'Brown'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1010,7 +1010,7 @@
         'D': 'The only way to garden'
     },
     'correct_answer': 'A'
-}
+},
 
 
  
@@ -1025,7 +1025,7 @@
         'D': 'Insecticide'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1037,7 +1037,7 @@
         'D': 'Watering crops'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1049,7 +1049,7 @@
         'D': 'Using synthetic pesticides'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1061,7 +1061,7 @@
         'D': 'Synthetic fertilizers'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1073,7 +1073,7 @@
         'D': 'To remove weeds'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1085,7 +1085,7 @@
         'D': 'Synthetic fertilizer'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1097,7 +1097,7 @@
         'D': 'Planting in rows'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1109,7 +1109,7 @@
         'D': 'They resist all pests'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1121,7 +1121,7 @@
         'D': 'Attracting pollinators'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1133,7 +1133,7 @@
         'D': 'Eliminating all wildlife'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1145,7 +1145,7 @@
         'D': 'Relying on synthetic pesticides'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1157,7 +1157,7 @@
         'D': 'Building vertical farms'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1169,7 +1169,7 @@
         'D': 'Draining excess water quickly'
     },
     'correct_answer': 'A'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1181,7 +1181,7 @@
         'D': 'Frequent tilling'
     },
     'correct_answer': 'C'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1193,7 +1193,7 @@
         'D': 'A monoculture farm of fruit trees'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1205,7 +1205,7 @@
         'D': 'Focusing only on short-term results'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1217,7 +1217,7 @@
         'D': 'They compete with plants for nutrients'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
@@ -1229,7 +1229,7 @@
         'D': 'It involves planting only perennials'
     },
     'correct_answer': 'B'
-}
+},
 
 {
     'category': 'Gardening', 
