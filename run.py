@@ -23,10 +23,10 @@ def display_welcome_message():
     """
     Display a welcome message and instructions for the quiz.
     """
-    text = pyfiglet.figlet_format("Silly but Serious", font="cybermedium")
+    text = pyfiglet.figlet_format("Master_Gardener_Quiz", font="cybermedium")
     print(text)
     print(colored(
-        "\n===== Welcome to the Silly but Serious Quiz! =====", "cyan"
+        "\n===== Welcome to the Master Gardener Quiz! =====", "cyan"
     ))
     print(colored("\nHow to play:", "yellow"))
     print("1. Choose the number of questions you want to answer.")
@@ -38,7 +38,7 @@ def display_welcome_message():
         "3. After each question, you'll see if you were correct and "
         "your current score."
     )
-    print("4. Have fun and test your knowledge across various categories!")
+    print("4. Have fun and test your knowledge across various gardening related questions!")
     print(colored("\nLet's begin!", "green"))
 
     # Ensure only Enter key is pressed
@@ -72,7 +72,9 @@ def get_quiz_length():
             print(colored("Invalid input. Please enter a number.", "red"))
 
 def play_again():
-    """Ask the player if they want to play again."""
+    """
+    Ask the player if they want to play again.
+    """
     while True:
         choice = input("Would you like to play again? (yes/no): ").lower()
         if choice in ['yes', 'y']:
@@ -137,7 +139,9 @@ def run_quiz():
             break
 
 def wait_for_enter():
-    """Wait for the user to press Enter before exiting."""
+    """
+    Wait for the user to press Enter before exiting.
+    """
     input("Press enter to exit...")
 
 

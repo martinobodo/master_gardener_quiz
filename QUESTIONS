@@ -1,5 +1,3 @@
-[
-
 {
     'category': 'Gardening', 
     'question': 'What is a rake used for?', 
@@ -1243,4 +1241,3 @@
     'correct_answer': 'B'
 }
 
-]
