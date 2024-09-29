@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "master-gardener-quiz",
+    "private_key_id": "cffc95992223f5cac5811edf23fcdcdce04701b1",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+CXKPjxNnhBBP\ne4BCGI5/CK3onSQHazHbAhaycalhl2yaeQlOuopE7k52xsWLLZ3bkRkpzwhmv58e\nEpddhU45s18B2wLvyY1fJpC1Ytzu/3lOF9RhrE8OM6TjGI5UQb4+6ajSmcBcYqec\nOLZq+8NdlbBcj+a8dAD+3R3AT3RUo2pCz7RJ/zeLKQPFu59acEFLd7WKf0+jmeRm\njriQ5A/SF9hPo+6LkgqVXWSyXmFUVflx9qfv9F5r0Fg0VbvZZqU+S1IF9ZBmxIfe\n8GEbqo6r61J+KipdBdt8ZnJjoQ8I50fPKAnc+d1iv1nHHam9rKB5rMnjVOElSvUh\n+mJPaq0DAgMBAAECggEALNCPiplECzJSolvOiEfAOubyFBwSpgk6bZpVfeld91y9\nSMRoVH+bIdxM9qezaDnusxvJollncsuXm4Do3y4Tn3nUWtyqGaAfTaQLlirlTRtE\nIQ1vkUUQM5osNT3SOr5yPeXeYSPPADpnqmiZZCtRDB3DxGBPGnwEzBWa8YILPfYP\nd7tEIC3LdNVizRbqRVHyag8cBGS0VNTZmZOI8SsbHXcP6tRxn4mSAa+rO0hm9TJI\n0XSzNdG20AS8X8CHdEhqyfMH3A2q02hKoDF0YpJNz9o9oj6RAE7xjYwRSPvJjRLy\nv/jMG9Fl+RlMiIsMsDF/vYav9GCViph9tDX1ucDD8QKBgQDl2n5E1t6hv8+ynYex\nDNqSgSD8zMoQAfO/DheNaCytCceSJvmKm82/pfA5uwljzZQ/yoybZNvm/4cWODaD\nIBD07dCP07uJ+oTdhS36TJhKrR2a7Of7yW79pnbpJuBpmwSecto8uz7i/YvluScl\n+OyzwqY+tmrnMG/6L4FVL8ptaQKBgQDTp3cfDmKRA3AdjTdWTk9WxJ2MihT6TSKm\n52Ec72+9rW1JyceeZFvt205o0Vb5W94y6IlC8r04Zou9ckruXsv9O4dd+zVKK1Ti\nNrVKKz1keaSYu74PySRxduWAPfohurwvkK/+HlfHSVXhP5zhxDdvxUe/v8vp5xtH\nEI8dqM19iwKBgBocgR2m3zG2zYx38tM9J5NfEfVF+mppHlyE6E4LGJArvT0wKkcB\nvhTYb/rO8Zkh4IaCpwh8I7MRMjJm/mJVATgh0ACWyAY7rF5R49A8ZUyOb/+KjCwB\nTReJkpaX8QRuNM8fMwWVK+azcPIO35Cjv5gIM8SKCojq6r2cKfAYdsGJAoGAKRLA\njShPfHC8Wx/Cc18zClWRdWp+c6xwYw9XyzOz7Y0wPjeII3a6WEhMyQ6G4FExp5N0\nv6c3jTBpQdRiMiv3Tic1N8m+J6yNBnEzcTc+7LameHVGhu2zwskd9GsSlWUVi+16\nGchtpGDY56NeoHlhgLE6IT3pJnUQ2BOgklLlvc0CgYEAhfW5Qgp719cLsS39D4lL\nAZ4j0ymICIViCfBErw6gkLzWcdM2KjN1WD+YwMZG/yw/rBdix+l2YwzKw9J4XZCn\n8BintDiGr1XbWlntVzwL/kNfdpP70S219DYC37+3AMU8V97UXnE5pNcJum7cxcf4\nAQtwJ1Z/Vtuhc/MBjFaezDA=\n-----END PRIVATE KEY-----\n",
+    "client_email": "master-gardener-quiz@master-gardener-quiz.iam.gserviceaccount.com",
+    "client_id": "114777773979317517941",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/master-gardener-quiz%40master-gardener-quiz.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
