@@ -2,7 +2,7 @@
 This module contains the logic for running an interactive quiz game.
 It includes functions for managing a leaderboard and displaying questions.
 """
-
+import gspread
 import random
 import os
 import pyfiglet
@@ -137,6 +137,15 @@ def run_quiz():
         if not play_again():
             print("Thank you for playing! Goodbye!")
             break
+
+def update_highscores_worksheet(data, worksheet):
+    """
+    Send high scores to google sheets
+    """
+    print(f"Adding {worksheet} highscores to worksheet...\n")
+    worksheet_to_update = SHEET.worksheet(worksheet)
+    worksheet_to_update.append_row(data)
+    print(f"{worksheet} worksheet updated successfully\n")
 
 def wait_for_enter():
     """
