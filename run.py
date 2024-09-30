@@ -19,6 +19,20 @@ def send_data_to_spreadsheet(data, spreadsheet_name, worksheet_name):
 
     # Load credentials the mastercreds json file
     creds = ServiceAccountCredentials.from_json_keyfile_name('mastercreds.json', scope)
+    client = gspread.authorize(creds)
+    sheet = client.open(high_scores)
+    worksheet = sheet.worksheet(scores)
+    for row in data:
+        worksheet.append_row(row)
+
+    print("Data sent successfully!")
+    data = [
+    ['name', 'highscore', 'numbercorrect'],  # Header row
+    ['martin', '7', 7],
+    ['mick', '6', 6],
+]
+
+send_data_to_spreadsheet(data, 'high_scores', 'scores')
 
 # Assuming QUESTIONS is imported from questions.py
 
