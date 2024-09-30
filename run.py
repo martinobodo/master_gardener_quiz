@@ -3,11 +3,23 @@ This module contains the logic for running an interactive quiz game.
 It includes functions for managing a leaderboard and displaying questions.
 """
 import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 import random
 import os
 import pyfiglet
 from termcolor import colored
 from questions import QUESTIONS
+
+def send_data_to_spreadsheet(data, spreadsheet_name, worksheet_name):
+    # Define the scope (Google Sheets and Google Drive API access)
+    scope = ["https://spreadsheets.google.com/feeds", 
+             "https://www.googleapis.com/auth/spreadsheets",
+             "https://www.googleapis.com/auth/drive.file",
+             "https://www.googleapis.com/auth/drive"]
+
+    # Load credentials the mastercreds json file
+    creds = ServiceAccountCredentials.from_json_keyfile_name('mastercreds.json', scope)
+
 # Assuming QUESTIONS is imported from questions.py
 
 QUIZ_LENGTHS = [10, 20, 50, 100]
