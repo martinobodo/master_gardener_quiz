@@ -10,29 +10,29 @@ import pyfiglet
 from termcolor import colored
 from questions import QUESTIONS
 
-def send_data_to_spreadsheet(data, spreadsheet_name, worksheet_name):
+#def send_data_to_spreadsheet(data, spreadsheet_name, worksheet_name):
     # Define the scope (Google Sheets and Google Drive API access)
-    scope = ["https://spreadsheets.google.com/feeds", 
-             "https://www.googleapis.com/auth/spreadsheets",
-             "https://www.googleapis.com/auth/drive.file",
-             "https://www.googleapis.com/auth/drive"]
+    #scope = ["https://spreadsheets.google.com/feeds", 
+             #"https://www.googleapis.com/auth/spreadsheets",
+             #"https://www.googleapis.com/auth/drive.file",
+             #"https://www.googleapis.com/auth/drive"]
 
     # Load credentials the mastercreds json file
-    creds = ServiceAccountCredentials.from_json_keyfile_name('mastercreds.json', scope)
-    client = gspread.authorize(creds)
-    sheet = client.open(high_scores)
-    worksheet = sheet.worksheet(scores)
-    for row in data:
-        worksheet.append_row(row)
+    #creds = ServiceAccountCredentials.from_json_keyfile_name('mastercreds.json', scope)
+    #client = gspread.authorize(creds)
+    #sheet = client.open(high_scores)
+    #worksheet = sheet.worksheet(scores)
+    #for row in data:
+        #worksheet.append_row(row)
 
-    print("Data sent successfully!")
-    data = [
-    ['name', 'highscore', 'numbercorrect'],  # Header row
-    ['martin', '7', 7],
-    ['mick', '6', 6],
-]
+    #print("Data sent successfully!")
+    #data = [
+    #['name', 'highscore', 'numbercorrect'],  # Header row
+    #['martin', '7', 7],
+    #['mick', '6', 6],
+#]
 
-send_data_to_spreadsheet(data, 'high_scores', 'scores')
+#send_data_to_spreadsheet(data, 'high_scores', 'scores')
 
 # Assuming QUESTIONS is imported from questions.py
 
@@ -164,20 +164,27 @@ def run_quiz():
             print("Thank you for playing! Goodbye!")
             break
 
-def update_highscores_worksheet(data, worksheet):
+#def update_highscores_worksheet(data, worksheet):
     """
     Send high scores to google sheets
     """
-    print(f"Adding {worksheet} highscores to worksheet...\n")
-    worksheet_to_update = SHEET.worksheet(worksheet)
-    worksheet_to_update.append_row(data)
-    print(f"{worksheet} worksheet updated successfully\n")
+    #print(f"Adding {worksheet} highscores to worksheet...\n")
+    #worksheet_to_update = SHEET.worksheet(worksheet)
+    #worksheet_to_update.append_row(data)
+    #print(f"{worksheet} worksheet updated successfully\n")
 
 def wait_for_enter():
     """
     Wait for the user to press Enter before exiting.
     """
     input("Press enter to exit...")
+
+def main():
+    """
+    Run all program functions
+    """
+    data = send_data_to_spreadsheet()
+    
 
 
 if __name__ == "__main__":
